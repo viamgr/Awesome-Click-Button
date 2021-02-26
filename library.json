@@ -1,0 +1,23 @@
+{
+    "name": "ArduinoAwesomeClickButton",
+    "description": "Handle click on a button with useful functions.",
+    "keywords": "ESP8266, ESP32, Arduino",
+    "authors": [
+        {
+            "name": "Vahid Moradi",
+            "email": "zvm4zvm@gmail.com",
+            "url": "https://github.com/viamgr/Arduino-Awesome-Click-Button",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+         "url": "https://github.com/viamgr/Arduino-Awesome-Click-Button"
+    },
+    "version": "1.0.0",
+    "homepage": "https://github.com/viamgr/Arduino-Awesome-Click-Button",   
+    "frameworks": "Arduino",
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
