@@ -3,7 +3,7 @@ Handle click on a button with useful functions.
 
 Simple Usage: 
 
-```
+```c
 #include "AwesomeClickButton.h"
 #define BUTTON_PIN D2
 
