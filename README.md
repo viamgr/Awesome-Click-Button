@@ -35,23 +35,23 @@ void loop() {
 ## APIs
 
 ```c++
-void setSingleClickTime(int value)
+void setSingleClickTime(int value);
  
-void setMultipleClickTime(int value)
+void setMultipleClickTime(int value);
  
-void setLongClickTime(int value) 
+void setLongClickTime(int value);
  
-void setDebounceTime(int value) 
+void setDebounceTime(int value);
  
-void setOnClickListener(OnClickListener listener)
+void setOnClickListener(OnClickListener listener);
 
-void setOnMultiClickListener(OnMultiClickListener listener)
+void setOnMultiClickListener(OnMultiClickListener listener);
 
-void setOnLongClickListener(OnLongClickListener listener)
+void setOnLongClickListener(OnLongClickListener listener);
 
-void setOnPressingListener(OnPressingListener listener)
+void setOnPressingListener(OnPressingListener listener);
 
-void setOnClickingListener(OnClickingListener listener)
+void setOnClickingListener(OnClickingListener listener);
 
-void setOnWaitForClickListener(OnWaitForClickListener listener)
+void setOnWaitForClickListener(OnWaitForClickListener listener);
 ```
