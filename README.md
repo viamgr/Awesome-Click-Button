@@ -3,9 +3,9 @@ Handle click on a button with useful functions.
 
 Simple Usage: 
 
-```c
+```c++
 #include "AwesomeClickButton.h"
-#define BUTTON_PIN D2
+#define BUTTON_PIN 2
 
 
 AwesomeClickButton awesomeClickButton(BUTTON_PIN);
@@ -30,4 +30,28 @@ void setup() {
 void loop() {
   awesomeClickButton.update();
 }
+```
+
+## APIs
+
+```c++
+void setSingleClickTime(int value)
+ 
+void setMultipleClickTime(int value)
+ 
+void setLongClickTime(int value) 
+ 
+void setDebounceTime(int value) 
+ 
+void setOnClickListener(OnClickListener listener)
+
+void setOnMultiClickListener(OnMultiClickListener listener)
+
+void setOnLongClickListener(OnLongClickListener listener)
+
+void setOnPressingListener(OnPressingListener listener)
+
+void setOnClickingListener(OnClickingListener listener)
+
+void setOnWaitForClickListener(OnWaitForClickListener listener)
 ```
