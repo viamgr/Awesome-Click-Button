@@ -1,4 +1,4 @@
-# Arduino-Awesome-Click-Button
+# Arduino awesome click button
 Handle click on a button with useful functions.
 
 Simple Usage: 
